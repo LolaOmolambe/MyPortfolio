@@ -1,0 +1,41 @@
+.list-1 {
+  background-image: url("../../../assets/images/pexels-cottonbro-4065885.jpg");
+  background-size: cover;
+}
+#mobile-section {
+  display: none;
+}
+
+/* .list-2 {
+  background-image: url("../../../assets/images/IMG-1485.jpg");
+} */
+
+@media screen and (max-width:768px){
+
+  #colorlib-hero{
+    display: none;
+  }
+  #mobile-section {
+    display: block;
+  }
+}
+
+
+.container-content{
+  height:400px;
+  width: 100%;
+  background-image: url("../../../assets/images/pexels-cottonbro-4065885.jpg");
+  background-size: cover;
+  /* border: 1px solid red; */
+
+}
+.sliders-text {
+  font-size: 19px;
+}
+
+.desc-1 {
+      position: absolute;
+       width: 100%;
+       height:200px;
+       bottom: 0;
+}

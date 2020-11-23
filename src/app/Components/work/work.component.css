@@ -1,0 +1,29 @@
+.project{
+  /* width: 500px; */
+  background-size: cover;
+
+}
+
+.work-text{
+   font-weight: 500;
+   font-size: .9rem;
+ }
+
+ .project  .desc{
+   top:auto;
+   bottom:0 !important;
+ }
+
+ @media screen and (max-width:768px){
+   .project-edit{
+      position: relative;
+   }
+   .project > .desc{
+      position: absolute;
+      width: 100%;
+      height:150px;
+      overflow: scroll ;
+      background-color:rgba(0,0,0,.9);
+      bottom: 0;
+  }
+ }
